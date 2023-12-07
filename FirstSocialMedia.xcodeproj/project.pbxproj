@@ -94,6 +94,8 @@
 		614CFA4A2B2193710077D5BE /* FirstSocialMedia */ = {
 			isa = PBXGroup;
 			children = (
+				614CFA762B2194110077D5BE /* Profile */,
+				614CFA752B21940A0077D5BE /* Home */,
 				614CFA4B2B2193710077D5BE /* FirstSocialMediaApp.swift */,
 				614CFA4D2B2193710077D5BE /* ContentView.swift */,
 				614CFA4F2B2193720077D5BE /* Assets.xcassets */,
@@ -125,6 +127,68 @@
 				614CFA682B2193730077D5BE /* FirstSocialMediaUITestsLaunchTests.swift */,
 			);
 			path = FirstSocialMediaUITests;
+			sourceTree = "<group>";
+		};
+		614CFA752B21940A0077D5BE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				614CFA7C2B2194470077D5BE /* ViewModels */,
+				614CFA7B2B21943D0077D5BE /* Models */,
+				614CFA7A2B2194380077D5BE /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		614CFA762B2194110077D5BE /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				614CFA792B21942D0077D5BE /* ViewModels */,
+				614CFA782B2194270077D5BE /* Models */,
+				614CFA772B2194210077D5BE /* Views */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		614CFA772B2194210077D5BE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		614CFA782B2194270077D5BE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		614CFA792B21942D0077D5BE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		614CFA7A2B2194380077D5BE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		614CFA7B2B21943D0077D5BE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		614CFA7C2B2194470077D5BE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
